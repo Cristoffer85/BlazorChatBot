@@ -9,3 +9,4 @@ C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Share
 C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\refint\BlazorAIChatBot.Shared.dll
 C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Shared.pdb
 C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\ref\BlazorAIChatBot.Shared.dll
+C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Shared.sourcelink.json

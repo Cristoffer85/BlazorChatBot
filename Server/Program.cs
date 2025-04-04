@@ -1,12 +1,12 @@
-using Microsoft.AspNetCore.ResponseCompression;
+using BlazorAIChatBot.Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Add services
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient();
+builder.Services.AddScoped<ElectricalDataService>();
 
 var app = builder.Build();
 

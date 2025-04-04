@@ -1,9 +1,5 @@
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\blazor.webassembly.js
-C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Client.h6bv413jqt.pdb
-C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Client.qa9k5ipr4l.wasm
-C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Shared.yhu46s4ajz.pdb
-C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Shared.2eaz84xi2a.wasm
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.js
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.js.map
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.1p93gcv9fh.js
@@ -316,8 +312,6 @@ C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\Sy
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.AppContext.69xw87cqtg.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.SecureString.c87gsi9tp6.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.vmr4sf3lia.wasm.gz
-C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Shared.2eaz84xi2a.wasm.gz
-C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Shared.yhu46s4ajz.pdb.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Data.Common.i3ihuk6o50.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Formats.Asn1.y2x54k0om0.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.ujr9p4dm3m.wasm.gz
@@ -343,7 +337,6 @@ C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\Mi
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Collections.Concurrent.7xcnvnvfe7.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.Compression.ZipFile.0h0gr0lp29.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.h81142zbp5.wasm.gz
-C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Client.qa9k5ipr4l.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.j0rb8fmqum.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Configuration.ic45gpxjv4.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.Extensions.q3j8knzs2x.wasm.gz
@@ -378,7 +371,6 @@ C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\Sy
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.Security.sr0ifz1ms7.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.DispatchProxy.rz2l0yjrdh.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.VisualBasic.o05ci7346e.wasm.gz
-C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Client.h6bv413jqt.pdb.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.b05mwug83r.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.MemoryMappedFiles.2kvmbxu1mj.wasm.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.qrl1fuqt3c.js.gz
@@ -1033,11 +1025,6 @@ C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\wz8s93lx5q
 C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\fnvjfojio7-tjcz0u77k5.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\ag9pjkck2e-tptq2av103.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\csui1sbmys-lfu7j35m59.gz
-C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\h9wm8k5xri-2eaz84xi2a.gz
-C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\hjjzfxjrwp-yhu46s4ajz.gz
-C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\mifpdyzypq-qa9k5ipr4l.gz
-C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\u7rrwykvit-h6bv413jqt.gz
-C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\dg2jo0wyhd-hyi175kcak.gz
 C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\staticwebassets.development.json
 C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1052,3 +1039,17 @@ C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\BlazorAIChatBot.Clien
 C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\refint\BlazorAIChatBot.Client.dll
 C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\BlazorAIChatBot.Client.pdb
 C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\ref\BlazorAIChatBot.Client.dll
+C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Client.1og9p0zu4x.pdb
+C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Client.7lzuipf0cd.wasm
+C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Shared.oygedhwbar.pdb
+C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Shared.k3kox0g2e6.wasm
+C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Shared.k3kox0g2e6.wasm.gz
+C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Shared.oygedhwbar.pdb.gz
+C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Client.7lzuipf0cd.wasm.gz
+C:\Projects\Csharp\BlazorAIChatBot\Client\bin\Debug\net9.0\wwwroot\_framework\BlazorAIChatBot.Client.1og9p0zu4x.pdb.gz
+C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\BlazorAIChatBot.Client.sourcelink.json
+C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\h9wm8k5xri-k3kox0g2e6.gz
+C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\hjjzfxjrwp-oygedhwbar.gz
+C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\mifpdyzypq-7lzuipf0cd.gz
+C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\u7rrwykvit-1og9p0zu4x.gz
+C:\Projects\Csharp\BlazorAIChatBot\Client\obj\Debug\net9.0\compressed\dg2jo0wyhd-8eirbzpzqv.gz

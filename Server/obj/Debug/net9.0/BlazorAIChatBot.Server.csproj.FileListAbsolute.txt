@@ -53,3 +53,4 @@ C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\refint\BlazorAIChatBo
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Server.pdb
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Server.genruntimeconfig.cache
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\ref\BlazorAIChatBot.Server.dll
+C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Server.sourcelink.json
