@@ -1,0 +1,112 @@
+﻿@page "/electricaldata"
+@inject HttpClient Http
+
+<PageTitle>Electrical Data</PageTitle>
+
+<h1>Electrical Data</h1>
+
+<p>This component fetches monthly electricity demand and generation data from the server-side API.</p>
+
+<div>
+    <label for="entity">Entity (e.g., Sweden, Norway):</label>
+    <input id="entity" @bind="entity" placeholder="Enter entity (e.g., Sweden)" />
+
+    <label for="startDate">Start Date (YYYY-MM):</label>
+    <input id="startDate" @bind="startDate" placeholder="Enter start date (e.g., 2020-01)" />
+
+    <label for="endDate">End Date (YYYY-MM):</label>
+    <input id="endDate" @bind="endDate" placeholder="Enter end date (e.g., 2020-03)" />
+
+    <button @onclick="FetchElectricalData">Fetch Data</button>
+</div>
+
+@if (isLoading)
+{
+    <p><em>Loading data...</em></p>
+}
+else if (errorMessage != null)
+{
+    <p class="text-danger">@errorMessage</p>
+}
+else if (electricalData == null || !electricalData.Any())
+{
+    <p>No data available. Please try different parameters.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Entity</th>
+                <th>Demand (TWh)</th>
+                <th>Generation (TWh)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var data in electricalData)
+            {
+                <tr>
+                    <td>@data.Date.ToShortDateString()</td>
+                    <td>@data.Entity</td>
+                    <td>@data.DemandTWh</td>
+                    <td>@data.GenerationTWh</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private string entity = "Sweden"; // Default entity
+    private string startDate = "2020-01"; // Default start date
+    private string endDate = "2020-03"; // Default end date
+    private bool isLoading = false;
+    private string? errorMessage = null;
+
+    private List<ElectricalData> electricalData = new();
+
+    private async Task FetchElectricalData()
+    {
+        isLoading = true;
+        errorMessage = null;
+        electricalData.Clear();
+
+        try
+        {
+            // Call the server-side API
+            string apiUrl = $"api/ElectricalData/fetch?entity={entity}&startDate={startDate}&endDate={endDate}";
+            var response = await Http.GetAsync(apiUrl);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var responseData = await response.Content.ReadFromJsonAsync<List<ElectricalData>>();
+                if (responseData != null)
+                {
+                    electricalData = responseData;
+                }
+            }
+            else
+            {
+                errorMessage = $"Failed to fetch data: {response.ReasonPhrase}";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Failed to fetch data. Please check your parameters or try again later.";
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    public class ElectricalData
+    {
+        public DateOnly Date { get; set; }
+        public string Entity { get; set; } = string.Empty;
+        public double DemandTWh { get; set; }
+        public double GenerationTWh { get; set; }
+    }
+}

@@ -1,0 +1,114 @@
+﻿<!-- page == defines the html structure/frontend,_blank with url route "/chatbot" etc -->
+@page "/chatbot"
+
+<h3>Blazor AI Electronic Chatbot</h3>
+
+<br>
+<p>Welcome to the ElectroBot Electronic Chatbot! Ask me anything about electrical data, and I'll do my best to assist you!</p>
+
+<input @bind="userInput" placeholder="Type a message..." />
+<button @onclick="SendMessage">Send</button>
+
+<div class="chatbox">
+    @foreach (var message in messages)
+    {
+        <p><strong>@message.Sender:</strong> @message.Text</p>
+    }
+</div>
+
+<!-- code == defines the C# backend logic, like functions and variables -->
+@inject HttpClient Http
+@code {
+    private string userInput = "";
+    private List<ChatMessage> messages = new();
+    private List<ElectricalData> electricalData = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Load electrical data from sample JSON file
+        electricalData = await Http.GetFromJsonAsync<List<ElectricalData>>("sample-data/electrical-data.json") ?? new();
+    }
+
+    private void SendMessage()
+    {
+        if (!string.IsNullOrWhiteSpace(userInput))
+        {
+            messages.Add(new ChatMessage("You", userInput));
+
+            string aiResponse = GetAIResponse(userInput);
+            messages.Add(new ChatMessage("Chatbot", aiResponse));
+
+            userInput = "";
+        }
+    }
+
+    private string GetAIResponse(string userMessage)
+    { 
+        // ############ Check for specific keywords and respond based on the electrical data ############
+        if (userMessage.Contains("hello", StringComparison.OrdinalIgnoreCase))
+            return "Hello! How can I assist you today?";
+
+        if (userMessage.Contains("how are you", StringComparison.OrdinalIgnoreCase))
+            return "I'm just a bot, but I'm here to help!";
+
+        if (userMessage.Contains("help", StringComparison.OrdinalIgnoreCase))
+            return "Sure! You can ask me about electrical data, such as 'What is the data for 2025-04?' or 'Tell me about 2025-04-01.'";
+
+        // Check for a specific date in the electrical data
+        foreach (var data in electricalData)
+        {
+            if (userMessage.Contains(data.Date.ToString("yyyy-MM-dd"), StringComparison.OrdinalIgnoreCase))
+            {
+                return $"On {data.Date:yyyy-MM-dd}, the voltage was {data.Voltage}V, the current was {data.Current}A, and the power was {data.Power}W. Summary: {data.Summary}";
+            }
+        }
+
+        // Check for a specific month in the electrical data
+        if (userMessage.Contains("data for", StringComparison.OrdinalIgnoreCase))
+        {
+            var monthMatch = System.Text.RegularExpressions.Regex.Match(userMessage, @"\d{4}-\d{2}");
+            if (monthMatch.Success)
+            {
+                string month = monthMatch.Value;
+                var monthlyData = electricalData.Where(d => d.Date.ToString("yyyy-MM") == month).ToList();
+
+                if (monthlyData.Any())
+                {
+                    double totalVoltage = monthlyData.Sum(d => d.Voltage);
+                    double totalCurrent = monthlyData.Sum(d => d.Current);
+                    double totalPower = monthlyData.Sum(d => d.Power);
+
+                    return $"For {month}, the total voltage was {totalVoltage}V, the total current was {totalCurrent}A, and the total power was {totalPower}W.";
+                }
+                else
+                {
+                    return $"No data found for {month}.";
+                }
+            }
+        }
+
+        // Provide a default response if no match is found
+        return "I'm not sure how to respond to that yet, but you can ask me about specific dates or electrical data!";
+    }
+
+    private class ChatMessage
+    {
+        public string Sender { get; set; }
+        public string Text { get; set; }
+
+        public ChatMessage(string sender, string text)
+        {
+            Sender = sender;
+            Text = text;
+        }
+    }
+
+    private class ElectricalData
+    {
+        public DateOnly Date { get; set; }
+        public double Voltage { get; set; }
+        public double Current { get; set; }
+        public double Power => Voltage * Current;
+        public string? Summary { get; set; }
+    }
+}
