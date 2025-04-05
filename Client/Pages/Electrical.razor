@@ -4,7 +4,8 @@
 
 <h1>Electrical Data</h1>
 
-<p>This component fetches monthly electricity demand and generation data from the server-side API.</p>
+<p>This component fetches monthly electricity demand and Generation from various sources (TWh) and from a total of 85 countries (not yet mapped in list) fetched from ember-energy.org.
+<br><br>Start by typing your desired parameters in fields below and press button <strong>Fetch Data</strong> to receive your results.</p>
 
 <div>
     <label for="entity">Entity (e.g., Sweden, Norway):</label>
@@ -26,6 +27,10 @@
 else if (errorMessage != null)
 {
     <p class="text-danger">@errorMessage</p>
+}
+else if (!hasFetchedData)
+{
+    <p></p>
 }
 else if (electricalData == null || !electricalData.Any())
 {
@@ -135,7 +140,6 @@ else
 
 @using BlazorAIChatBot.Shared.Models
 @inject HttpClient Http
-
 @code {
     private string entity = "Sweden"; // Default entity
     private string startDate = "2020-01"; // Default start date
@@ -143,6 +147,7 @@ else
     private string? selectedSeries = null; // Selected series filter
     private bool isLoading = false;
     private string? errorMessage = null;
+    private bool hasFetchedData = false; // New flag to track if data has been fetched
 
     private List<ElectricalData> electricalData = new();
 
@@ -151,6 +156,7 @@ else
         isLoading = true;
         errorMessage = null;
         electricalData.Clear();
+        hasFetchedData = true; // Set the flag to true when the button is pressed
 
         try
         {
