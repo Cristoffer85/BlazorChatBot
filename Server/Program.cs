@@ -1,6 +1,10 @@
 using BlazorAIChatBot.Server.Services;
+using DotNetEnv;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Load environment variables from .env file
+Env.Load(".env");
 
 // Add services
 builder.Services.AddControllersWithViews();

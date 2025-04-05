@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazorAIChatBot.Client",
   "resources": {
-    "hash": "sha256-Uck9ZcNbCdMCYbEb9HAFx9IinvLmIRYC4nHJVqdF7MA=",
+    "hash": "sha256-eqoYWJWZP8FC2CC6x7AW57/5K/amiKv7Dc/yqdXRWxk=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,10 +201,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "BlazorAIChatBot.Shared.7tjn9xo261.wasm": "BlazorAIChatBot.Shared.wasm",
-      "BlazorAIChatBot.Shared.6kpfaefo9s.pdb": "BlazorAIChatBot.Shared.pdb",
-      "BlazorAIChatBot.Client.fon3w7kxf9.wasm": "BlazorAIChatBot.Client.wasm",
-      "BlazorAIChatBot.Client.3pxdptqqg7.pdb": "BlazorAIChatBot.Client.pdb"
+      "BlazorAIChatBot.Shared.xfgferh6rq.wasm": "BlazorAIChatBot.Shared.wasm",
+      "BlazorAIChatBot.Shared.68x2vigiq5.pdb": "BlazorAIChatBot.Shared.pdb",
+      "BlazorAIChatBot.Client.3dthrtsoix.wasm": "BlazorAIChatBot.Client.wasm",
+      "BlazorAIChatBot.Client.nc97krkq16.pdb": "BlazorAIChatBot.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.1p93gcv9fh.js": "sha256-1UPiprzN3JhPftx3be7XEMaYlUN+chRF41CuttiWVtQ="
@@ -414,12 +414,12 @@
       "WindowsBase.ag32297siy.wasm": "sha256-BgyZxTgdU9rIYlNC9ZMiMjnvBAJSL0eQH8Y87o1M+q4=",
       "mscorlib.vt9pwshhot.wasm": "sha256-/aFxOaPc1iTNlJw0z4/RGEMD0nzl4qVE3SF4wMsLgp0=",
       "netstandard.or41gtprh3.wasm": "sha256-nD1KqAI5YYz+YohqHaZ5EmXi7Eq9Uy9sUknnI8sj1AM=",
-      "BlazorAIChatBot.Shared.7tjn9xo261.wasm": "sha256-9W7J//f9o/6iKR2BrKBjJJcBvykma0dG7e8kCGUMAAw=",
-      "BlazorAIChatBot.Client.fon3w7kxf9.wasm": "sha256-n7ZnPI+7V2doLz6nA2cr2Op0bgTjASvoNVXRdGK9W+I="
+      "BlazorAIChatBot.Shared.xfgferh6rq.wasm": "sha256-A1WGnPcWkezmeHoCpbULh3C2i5rQyYjBRmDtlDR/n8Q=",
+      "BlazorAIChatBot.Client.3dthrtsoix.wasm": "sha256-GQJZEKS6GQ2rPzGEjtzdbior1vqxXoeQYZqykuyUPM0="
     },
     "pdb": {
-      "BlazorAIChatBot.Shared.6kpfaefo9s.pdb": "sha256-2p7+PxYx5EL4oq1u7KtsPBsm5fOim0hf5AZvAh9gOts=",
-      "BlazorAIChatBot.Client.3pxdptqqg7.pdb": "sha256-11hVOMProcRu/bZJ8WcIfu1m8Lq3GoR46HJYzXy9GnI="
+      "BlazorAIChatBot.Shared.68x2vigiq5.pdb": "sha256-SmQ0BEa+LiiCF2CbTJ9z7C9Ykmx4fxD4lAStNIeDqqg=",
+      "BlazorAIChatBot.Client.nc97krkq16.pdb": "sha256-F8vtFt819NpXI3GHw/NAhpaRATtLHwiIAM4EZYkHRnQ="
     }
   },
   "cacheBootResources": true,
