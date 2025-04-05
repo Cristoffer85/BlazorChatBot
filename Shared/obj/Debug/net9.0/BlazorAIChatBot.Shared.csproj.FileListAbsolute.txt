@@ -5,8 +5,8 @@ C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Share
 C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Shared.AssemblyInfoInputs.cache
 C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Shared.AssemblyInfo.cs
 C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Shared.csproj.CoreCompileInputs.cache
+C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Shared.sourcelink.json
 C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Shared.dll
 C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\refint\BlazorAIChatBot.Shared.dll
 C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Shared.pdb
 C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\ref\BlazorAIChatBot.Shared.dll
-C:\Projects\Csharp\BlazorAIChatBot\Shared\obj\Debug\net9.0\BlazorAIChatBot.Shared.sourcelink.json

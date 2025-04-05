@@ -1,5 +1,4 @@
 ﻿@page "/electricaldata"
-@inject HttpClient Http
 
 <PageTitle>Electrical Data</PageTitle>
 
@@ -40,27 +39,108 @@ else
                 <th>Date</th>
                 <th>Entity</th>
                 <th>Demand (TWh)</th>
+                <th>Series</th>
                 <th>Generation (TWh)</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var data in electricalData)
+            @foreach (var group in electricalData.GroupBy(d => d.Date.ToString("yyyy-MM")))
             {
-                <tr>
-                    <td>@data.Date.ToShortDateString()</td>
-                    <td>@data.Entity</td>
-                    <td>@data.DemandTWh</td>
-                    <td>@data.GenerationTWh</td>
+                // Render the month header row
+                <tr class="table-primary">
+                    <td>@group.First().Date.ToShortDateString()</td>
+                    <td>@group.First().Entity</td>
+                    <td>@group.First().DemandTWh</td>
+                    <td colspan="2">Generation Details:</td>
                 </tr>
+
+                // Filter and transform the data
+                var filteredData = group
+                    .Where(
+
+                        d => d.Series != "Clean" 
+                     && d.Series != "Hydro, bioenergy and other renewables" 
+                     && d.Series != "Renewables"
+                     && d.Series != "Wind and solar"
+                     && d.Series != "Other renewables"
+                     && d.Series != "Other fossil"
+                    
+                    )
+                    .ToList();
+
+                // Ensure "Fossil" and "Solar" are included, even if their values are 0
+                if (!filteredData.Any(d => d.Series == "Fossil"))
+                {
+                    filteredData.Add(new ElectricalData
+                    {
+                        Series = "Fossil",
+                        GenerationTWh = 0,
+                        Date = group.First().Date,
+                        Entity = group.First().Entity
+                    });
+                }
+
+                if (!filteredData.Any(d => d.Series == "Solar"))
+                {
+                    filteredData.Add(new ElectricalData
+                    {
+                        Series = "Solar",
+                        GenerationTWh = 0,
+                        Date = group.First().Date,
+                        Entity = group.First().Entity
+                    });
+                }
+
+                // Render the filtered and transformed rows
+                foreach (var data in filteredData.Where(d => d.Series != "Total generation" && d.Series != "Net imports"))
+                {
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>@data.Series</td>
+                        <td>@data.GenerationTWh</td>
+                    </tr>
+                }
+
+                // Render the "Total generation" row with a light gray background
+                var totalGeneration = group.FirstOrDefault(d => d.Series == "Total generation");
+                if (totalGeneration != null)
+                {
+                    <tr style="background-color: lightgray;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><strong>@totalGeneration.Series</strong></td>
+                        <td><strong>@totalGeneration.GenerationTWh</strong></td>
+                    </tr>
+                }
+
+                // Render the "Net imports" row with a slightly darker gray background
+                var netImports = group.FirstOrDefault(d => d.Series == "Net imports");
+                if (netImports != null)
+                {
+                    <tr style="background-color: darkgray;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><strong>@netImports.Series</strong></td>
+                        <td><strong>@netImports.GenerationTWh</strong></td>
+                    </tr>
+                }
             }
         </tbody>
     </table>
 }
 
+@using BlazorAIChatBot.Shared.Models
+@inject HttpClient Http
+
 @code {
     private string entity = "Sweden"; // Default entity
     private string startDate = "2020-01"; // Default start date
     private string endDate = "2020-03"; // Default end date
+    private string? selectedSeries = null; // Selected series filter
     private bool isLoading = false;
     private string? errorMessage = null;
 
@@ -74,8 +154,13 @@ else
 
         try
         {
-            // Call the server-side API
+            // Call the server-side API with the selected series filter
             string apiUrl = $"api/ElectricalData/fetch?entity={entity}&startDate={startDate}&endDate={endDate}";
+            if (!string.IsNullOrEmpty(selectedSeries))
+            {
+                apiUrl += $"&series={Uri.EscapeDataString(selectedSeries)}";
+            }
+
             var response = await Http.GetAsync(apiUrl);
 
             if (response.IsSuccessStatusCode)
@@ -100,13 +185,5 @@ else
         {
             isLoading = false;
         }
-    }
-
-    public class ElectricalData
-    {
-        public DateOnly Date { get; set; }
-        public string Entity { get; set; } = string.Empty;
-        public double DemandTWh { get; set; }
-        public double GenerationTWh { get; set; }
     }
 }

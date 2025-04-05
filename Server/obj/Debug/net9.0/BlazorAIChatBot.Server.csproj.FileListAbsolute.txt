@@ -37,6 +37,7 @@ C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Serve
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Server.RazorAssemblyInfo.cache
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Server.RazorAssemblyInfo.cs
+C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Server.sourcelink.json
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\scopedcss\bundle\BlazorAIChatBot.Server.styles.css
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\staticwebassets.build.json
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\staticwebassets.development.json
@@ -53,4 +54,3 @@ C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\refint\BlazorAIChatBo
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Server.pdb
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Server.genruntimeconfig.cache
 C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\ref\BlazorAIChatBot.Server.dll
-C:\Projects\Csharp\BlazorAIChatBot\Server\obj\Debug\net9.0\BlazorAIChatBot.Server.sourcelink.json
