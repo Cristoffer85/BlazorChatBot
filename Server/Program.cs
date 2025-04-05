@@ -11,6 +11,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<ElectricalDataService>();
+builder.Services.AddScoped<ChatService>();
 
 var app = builder.Build();
 
