@@ -8,8 +8,14 @@
 <br><br>Start by typing your desired parameters in fields below and press button <strong>Fetch Data</strong> to receive your results.</p>
 
 <div>
-    <label for="entity">Entity (e.g., Sweden, Norway):</label>
-    <input id="entity" @bind="entity" placeholder="Enter entity (e.g., Sweden)" />
+    <label for="entity">Entity (e.g., Sweden, Norway) or just doubleclick for list:</label>
+    <input id="entity" @bind="entity" list="entityOptions" placeholder="Enter entity (e.g., Sweden)" />
+    <datalist id="entityOptions">
+        @foreach (var country in entityOptions)
+        {
+            <option value="@country"></option>
+        }
+    </datalist>
 
     <label for="startDate">Start Date (YYYY-MM):</label>
     <input id="startDate" @bind="startDate" placeholder="Enter start date (e.g., 2020-01)" />
@@ -148,8 +154,39 @@ else
     private bool isLoading = false;
     private string? errorMessage = null;
     private bool hasFetchedData = false; // New flag to track if data has been fetched
-
     private List<ElectricalData> electricalData = new();
+    private List<string> entityOptions = new()
+    {
+        "Afghanistan", "Africa", "Albania", "Algeria", "American Samoa", "Angola", "Antigua and Barbuda",
+        "Argentina", "Armenia", "Aruba", "ASEAN", "Asia", "Australia", "Austria", "Azerbaijan", "Bahamas",
+        "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia",
+        "Bosnia Herzegovina", "Botswana", "Brazil", "Brunei Darussalam", "Bulgaria", "Burkina Faso", "Burundi",
+        "Cabo Verde", "Cambodia", "Cameroon", "Canada", "Cayman Islands", "Central African Republic", "Chad",
+        "Chile", "China", "Colombia", "Comoros", "Congo", "Congo (DRC)", "Cook Islands (the)", "Costa Rica",
+        "Cote d'Ivoire", "Croatia", "Cuba", "Cyprus", "Czechia", "Denmark", "Djibouti", "Dominica",
+        "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia",
+        "Eswatini", "Ethiopia", "EU", "Europe", "Falkland Islands [Malvinas]", "Faroe Islands", "Fiji",
+        "Finland", "France", "French Guiana", "French Polynesia", "G20", "G7", "Gabon", "Gambia", "Georgia",
+        "Germany", "Ghana", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guinea",
+        "Guinea-Bissau", "Guyana", "Haiti", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia",
+        "Iran", "Iraq", "Ireland", "Israel", "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya",
+        "Kiribati", "Kosovo", "Kuwait", "Kyrgyzstan", "Lao", "Latin America and Caribbean", "Latvia", "Lebanon",
+        "Lesotho", "Liberia", "Libya", "Lithuania", "Luxembourg", "Macao", "Madagascar", "Malawi", "Malaysia",
+        "Maldives", "Mali", "Malta", "Martinique", "Mauritania", "Mauritius", "Mexico", "Middle East", "Moldova",
+        "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal",
+        "Netherlands", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North America",
+        "North Korea", "North Macedonia", "Norway", "Oceania", "OECD", "Oman", "Pakistan", "Palestine, State of",
+        "Panama", "Papua New Guinea", "Paraguay", "Peru", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion",
+        "Romania", "Russia", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Pierre and Miquelon",
+        "Saint Vincent and the Grenadines", "Samoa", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia",
+        "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia",
+        "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Sweden",
+        "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania, the United Republic of", "Thailand",
+        "The Philippines", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Türkiye", "Turkmenistan",
+        "Turks and Caicos Islands", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States",
+        "Uruguay", "Uzbekistan", "Vanuatu", "Venezuela", "Viet Nam", "Virgin Islands (British)",
+        "Virgin Islands (U.S.)", "World", "Yemen", "Zambia"
+    };
 
     private async Task FetchElectricalData()
     {
