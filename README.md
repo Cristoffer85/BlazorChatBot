@@ -9,12 +9,12 @@ Uses .NET9
 
 Project is only still local, so: 
 1. download or copy this repository from github
-2. make sure  you have .NET9 installed, and also dotenv to create your own .env file in root where you switch your own values instead of <.your-randomvalue.>   
+2. make sure  you have .NET9 installed, MSSQL and also dotenv to create your own .env file in root where you switch your own values instead of <.your-randomvalue.>   
     
     EMBER_API_KEY=<your-APIkey from https://ember-energy.org/data/api/ here>   
     OPENAI_API_KEY=<your-APIkey from https://platform.openai.com/api-keys here>   
     DB_CONNECTION_STRING=<your-DB-connection for Microsoft SQL Server Management Studio/MSSQL>    
-    
+
 3. use IDE of choice, stand in root in terminal and 'dotnet watch run --project Server' (watch = optional but if youd like the hot reload that React offers etc)
 
 ## Usage
