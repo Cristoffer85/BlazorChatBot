@@ -7,27 +7,26 @@ namespace BlazorAIChatBot.Shared.BotTraining
     {
         public static (string entity, string startDate, string endDate) ParseQuestion(string question)
         {
-            // Example: "Show me data for Germany from 2023-01 to 2023-12"
             string entity = string.Empty;
             string startDate = string.Empty;
             string endDate = string.Empty;
 
             // Extract entity (e.g., country name)
-            var entityMatch = Regex.Match(question, @"data for (\w+)");
+            var entityMatch = Regex.Match(question, @"data for ([a-zA-Z\s]+) from", RegexOptions.IgnoreCase);
             if (entityMatch.Success)
             {
-                entity = entityMatch.Groups[1].Value;
+                entity = entityMatch.Groups[1].Value.Trim();
             }
 
             // Extract start date
-            var startDateMatch = Regex.Match(question, @"from (\d{4}-\d{2})");
+            var startDateMatch = Regex.Match(question, @"from (\d{4}-\d{2})", RegexOptions.IgnoreCase);
             if (startDateMatch.Success)
             {
                 startDate = startDateMatch.Groups[1].Value;
             }
 
             // Extract end date
-            var endDateMatch = Regex.Match(question, @"to (\d{4}-\d{2})");
+            var endDateMatch = Regex.Match(question, @"to (\d{4}-\d{2})", RegexOptions.IgnoreCase);
             if (endDateMatch.Success)
             {
                 endDate = endDateMatch.Groups[1].Value;

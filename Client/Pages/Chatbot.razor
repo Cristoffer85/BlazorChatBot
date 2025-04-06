@@ -24,6 +24,12 @@
     private string UserInput = string.Empty;
     private List<ChatMessage> ChatHistory = new();
 
+    protected override async Task OnInitializedAsync()
+    {
+        // Load chat history from the API
+        ChatHistory = await Http.GetFromJsonAsync<List<ChatMessage>>("api/chatbot") ?? new List<ChatMessage>();
+    }
+
     private async Task SendMessage()
     {
         if (string.IsNullOrWhiteSpace(UserInput)) return;
@@ -34,7 +40,7 @@
         try
         {
             // Call the API to get a response
-            var response = await Http.PostAsJsonAsync("api/chatbot", new { question = UserInput });
+            var response = await Http.PostAsJsonAsync("api/chatbot", new ChatMessage { Sender = "User", Text = UserInput });
 
             if (response.IsSuccessStatusCode)
             {
@@ -43,22 +49,6 @@
                 {
                     ChatHistory.Add(aiResponse);
                 }
-                else
-                {
-                    ChatHistory.Add(new ChatMessage
-                    {
-                        Sender = "AI",
-                        Text = "I couldn't process your query. Please try again."
-                    });
-                }
-            }
-            else
-            {
-                ChatHistory.Add(new ChatMessage
-                {
-                    Sender = "AI",
-                    Text = $"An error occurred: {response.ReasonPhrase}"
-                });
             }
         }
         catch (Exception ex)

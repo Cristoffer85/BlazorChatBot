@@ -1,44 +1,58 @@
-using Microsoft.AspNetCore.Mvc;
+using BlazorAIChatBot.Server.Data;
 using BlazorAIChatBot.Server.Services;
 using BlazorAIChatBot.Shared.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-[ApiController]
-[Route("api/chatbot")]
-public class ChatbotController : ControllerBase
+namespace BlazorAIChatBot.Server.Controllers
 {
-    private readonly ChatService _chatService;
-
-    public ChatbotController(ChatService chatService)
+    [ApiController]
+    [Route("api/chatbot")]
+    public class ChatbotController : ControllerBase
     {
-        _chatService = chatService;
-    }
+        private readonly ChatbotDbContext _dbContext;
+        private readonly ChatService _chatService;
 
-    [HttpPost]
-    public async Task<IActionResult> Post([FromBody] ChatRequest request)
-    {
-        if (string.IsNullOrWhiteSpace(request.Question))
+        public ChatbotController(ChatbotDbContext dbContext, ChatService chatService)
         {
-            return Ok(new ChatResponse
-            {
-                Sender = "AI",
-                Text = "I didn't understand your query. Please ask something like 'Show me data for Germany from 2023-01 to 2023-12.'"
-            });
+            _dbContext = dbContext;
+            _chatService = chatService;
         }
 
-        // Retrieve the API key
-        var apiKey = Environment.GetEnvironmentVariable("EMBER_API_KEY");
-        if (string.IsNullOrEmpty(apiKey))
+        [HttpPost]
+        public async Task<IActionResult> PostMessage([FromBody] ChatMessage message)
         {
-            return StatusCode(500, new ChatResponse
+            if (message == null) return BadRequest();
+
+            // Save the user message to the database
+            _dbContext.ChatMessages.Add(message);
+            await _dbContext.SaveChangesAsync();
+
+            // Retrieve the API key from environment variables
+            string? apiKey = Environment.GetEnvironmentVariable("EMBER_API_KEY");
+            if (string.IsNullOrEmpty(apiKey))
             {
-                Sender = "AI",
-                Text = "The server is not configured properly. Please contact support."
-            });
+                return StatusCode(500, "API key is missing in the environment variables.");
+            }
+
+            // Process the user's query using ChatService
+            var aiResponse = await _chatService.HandleChatRequestAsync(message.Text, apiKey);
+
+            // Save the AI response to the database
+            _dbContext.ChatMessages.Add(aiResponse);
+            await _dbContext.SaveChangesAsync();
+
+            return Ok(aiResponse);
         }
 
-        // Delegate the request to ChatService
-        var response = await _chatService.HandleChatRequestAsync(request.Question, apiKey);
+        [HttpGet]
+        public async Task<IActionResult> GetChatHistory()
+        {
+            var chatHistory = await _dbContext.ChatMessages
+                .OrderBy(m => m.Timestamp)
+                .ToListAsync();
 
-        return Ok(response);
+            return Ok(chatHistory);
+        }
     }
 }
