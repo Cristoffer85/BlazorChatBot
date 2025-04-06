@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorAIChatBot.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38628a257e3303b7269c2280910da89c27c55416")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+802c470ab032f2618f53912cc05217b96dbb68c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorAIChatBot.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorAIChatBot.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

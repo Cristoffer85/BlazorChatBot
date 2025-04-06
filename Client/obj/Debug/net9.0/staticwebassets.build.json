@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8Mu6XEV3eBYQHvirCf+g5yPM6wTh6bQnLYgXH5HF8rY=",
+  "Hash": "jEsKsA2ZCfPKhSqrYeVwOdrUfyoBzgWtqXCCxBcFjTE=",
   "Source": "BlazorAIChatBot.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "hme9j766cy",
-      "Integrity": "SQHcxIp+4UcL1M6FpWRNYx0jN3OCJ9F51D3Q4ioGFow=",
+      "Fingerprint": "cn95x5euji",
+      "Integrity": "GBUAb+8JvNg7l4t773bU1RCfh6QTi1rJ7msxG2gonb0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "1c7l6pkz6o",
-      "Integrity": "YeJIauKFikUIqpRGBJjYeDOwJHRYH34liBfE7DLVUSc=",
+      "Fingerprint": "p4xupah7ce",
+      "Integrity": "xwvHgOMmRBHiaexFHr9tivdFX5vO0pDGnEgtrEMarPc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\BlazorAIChatBot.Client.pdb"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "lhhnntw5uo",
-      "Integrity": "t/xVqEKb5NKUWITCdGVa3jYJPfCF0L0Y3heFnxBkIkM=",
+      "Fingerprint": "8ab0cfyo09",
+      "Integrity": "IIENoPG/o3M+PS/lWJDWmwAGU1svGNlqPnzPtQ1azCQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\webcil\\BlazorAIChatBot.Client.wasm"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "58ui6u9fyh",
-      "Integrity": "hbc5Vss+cUsjLvOLJmfLDqlQ82w9m+hi5ToEc3Eygis=",
+      "Fingerprint": "ev3y7n13p5",
+      "Integrity": "GjvXC1/f1jEKT1LWT2bkdBdsEI2NBeJmtOQKIi6wd2k=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Shared\\bin\\Debug\\net9.0\\BlazorAIChatBot.Shared.pdb"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "idtih8wszl",
-      "Integrity": "NjZudDFdi50jR4BwSFmI99Uh0n7kp27otY/Tr91yNIw=",
+      "Fingerprint": "9yoru8jmqd",
+      "Integrity": "75pQ9grCr+mzODGYFaWL81eN6J1n07uQXB1Us2NNQRU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\webcil\\BlazorAIChatBot.Shared.wasm"
@@ -6401,7 +6401,7 @@
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.WebHeaderCollection.wasm"
     },
     {
-      "Identity": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\dg2jo0wyhd-hme9j766cy.gz",
+      "Identity": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\dg2jo0wyhd-cn95x5euji.gz",
       "SourceId": "BlazorAIChatBot.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\",
@@ -6415,8 +6415,8 @@
       "RelatedAsset": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "f7ertgi9nm",
-      "Integrity": "q13T0IPkI3FhwRA4fImFn0iclfJS8NSPjbbMFQ3KY9E=",
+      "Fingerprint": "gazzha36po",
+      "Integrity": "mJmsEwt196TAiIotVHjjXx7Xqi2CUbJPCyzOrFLaCV8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6800,12 +6800,12 @@
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Reflection.wasm"
     },
     {
-      "Identity": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\h9wm8k5xri-idtih8wszl.gz",
+      "Identity": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\h9wm8k5xri-9yoru8jmqd.gz",
       "SourceId": "BlazorAIChatBot.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/BlazorAIChatBot.Shared#[.{fingerprint=idtih8wszl}]!.wasm.gz",
+      "RelativePath": "_framework/BlazorAIChatBot.Shared#[.{fingerprint=9yoru8jmqd}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6814,19 +6814,19 @@
       "RelatedAsset": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Shared.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ufhygxijed",
-      "Integrity": "Nl9u9aJcCFL4jfBSv+o7imhtgIy4EEmVxnW3tTZKzbg=",
+      "Fingerprint": "yvnhxth2sj",
+      "Integrity": "0odcKFMWPF7+hJghcHbD7vrG6uSo9GBpEJrjBw1voWc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Shared.wasm"
     },
     {
-      "Identity": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\hjjzfxjrwp-58ui6u9fyh.gz",
+      "Identity": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\hjjzfxjrwp-ev3y7n13p5.gz",
       "SourceId": "BlazorAIChatBot.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/BlazorAIChatBot.Shared#[.{fingerprint=58ui6u9fyh}]!.pdb.gz",
+      "RelativePath": "_framework/BlazorAIChatBot.Shared#[.{fingerprint=ev3y7n13p5}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6835,8 +6835,8 @@
       "RelatedAsset": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xn70fq5b21",
-      "Integrity": "M7KM12/djPXgnlh73wbV8AgaX3fmACrAb8uWAheTWq0=",
+      "Fingerprint": "m99hkg06zz",
+      "Integrity": "Kp37qjjoY5VUpHDiaPTpJou6VvaByTyWc8cw531753M=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Shared.pdb"
@@ -7409,12 +7409,12 @@
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Reflection.Emit.Lightweight.wasm"
     },
     {
-      "Identity": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\mifpdyzypq-lhhnntw5uo.gz",
+      "Identity": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\mifpdyzypq-8ab0cfyo09.gz",
       "SourceId": "BlazorAIChatBot.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/BlazorAIChatBot.Client#[.{fingerprint=lhhnntw5uo}]!.wasm.gz",
+      "RelativePath": "_framework/BlazorAIChatBot.Client#[.{fingerprint=8ab0cfyo09}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7423,8 +7423,8 @@
       "RelatedAsset": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "drf48s2oce",
-      "Integrity": "yUCiyjDscj1BpI1P/F1NoLpIVLS/j1lVC1gFjm3GKbE=",
+      "Fingerprint": "blm6um2kpj",
+      "Integrity": "383PPC0ln/Y7huWGg1FT2zXVcZ+HQxfrSqt0cNDIl3Y=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Client.wasm"
@@ -8207,12 +8207,12 @@
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.VisualBasic.wasm"
     },
     {
-      "Identity": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\u7rrwykvit-1c7l6pkz6o.gz",
+      "Identity": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\u7rrwykvit-p4xupah7ce.gz",
       "SourceId": "BlazorAIChatBot.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/BlazorAIChatBot.Client#[.{fingerprint=1c7l6pkz6o}]!.pdb.gz",
+      "RelativePath": "_framework/BlazorAIChatBot.Client#[.{fingerprint=p4xupah7ce}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8221,8 +8221,8 @@
       "RelatedAsset": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cf3npgk2ps",
-      "Integrity": "GCqOZPp5LGNLG6rvkyXKJjjcNwtXEw7ctQXdXJluBBQ=",
+      "Fingerprint": "vra1rh60ci",
+      "Integrity": "yytYvzNhC6x4M6MUcw3X2jXzhkxZRMy0U8/wbJ/mseg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Client.pdb"
@@ -9277,11 +9277,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SQHcxIp+4UcL1M6FpWRNYx0jN3OCJ9F51D3Q4ioGFow=\""
+          "Value": "\"GBUAb+8JvNg7l4t773bU1RCfh6QTi1rJ7msxG2gonb0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9291,18 +9291,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SQHcxIp+4UcL1M6FpWRNYx0jN3OCJ9F51D3Q4ioGFow="
+          "Value": "sha256-GBUAb+8JvNg7l4t773bU1RCfh6QTi1rJ7msxG2gonb0="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\dg2jo0wyhd-hme9j766cy.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\dg2jo0wyhd-cn95x5euji.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080360013"
+          "Quality": "0.000080385852"
         }
       ],
       "ResponseHeaders": [
@@ -9312,15 +9312,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12443"
+          "Value": "12439"
         },
         {
           "Name": "ETag",
-          "Value": "\"q13T0IPkI3FhwRA4fImFn0iclfJS8NSPjbbMFQ3KY9E=\""
+          "Value": "\"mJmsEwt196TAiIotVHjjXx7Xqi2CUbJPCyzOrFLaCV8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
+          "Value": "Sun, 06 Apr 2025 15:18:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9340,19 +9340,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SQHcxIp+4UcL1M6FpWRNYx0jN3OCJ9F51D3Q4ioGFow=\""
+          "Value": "W/\"GBUAb+8JvNg7l4t773bU1RCfh6QTi1rJ7msxG2gonb0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SQHcxIp+4UcL1M6FpWRNYx0jN3OCJ9F51D3Q4ioGFow="
+          "Value": "sha256-GBUAb+8JvNg7l4t773bU1RCfh6QTi1rJ7msxG2gonb0="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\dg2jo0wyhd-hme9j766cy.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\dg2jo0wyhd-cn95x5euji.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9361,7 +9361,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12443"
+          "Value": "12439"
         },
         {
           "Name": "Content-Type",
@@ -9369,11 +9369,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q13T0IPkI3FhwRA4fImFn0iclfJS8NSPjbbMFQ3KY9E=\""
+          "Value": "\"mJmsEwt196TAiIotVHjjXx7Xqi2CUbJPCyzOrFLaCV8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
+          "Value": "Sun, 06 Apr 2025 15:18:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9391,7 +9391,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-q13T0IPkI3FhwRA4fImFn0iclfJS8NSPjbbMFQ3KY9E="
+          "Value": "sha256-mJmsEwt196TAiIotVHjjXx7Xqi2CUbJPCyzOrFLaCV8="
         }
       ]
     },
@@ -9533,168 +9533,7 @@
       ]
     },
     {
-      "Route": "_framework/BlazorAIChatBot.Client.1c7l6pkz6o.pdb",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Client.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30236"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YeJIauKFikUIqpRGBJjYeDOwJHRYH34liBfE7DLVUSc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1c7l6pkz6o"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlazorAIChatBot.Client.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YeJIauKFikUIqpRGBJjYeDOwJHRYH34liBfE7DLVUSc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorAIChatBot.Client.1c7l6pkz6o.pdb",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\u7rrwykvit-1c7l6pkz6o.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000043802015"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22829"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GCqOZPp5LGNLG6rvkyXKJjjcNwtXEw7ctQXdXJluBBQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"YeJIauKFikUIqpRGBJjYeDOwJHRYH34liBfE7DLVUSc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1c7l6pkz6o"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlazorAIChatBot.Client.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YeJIauKFikUIqpRGBJjYeDOwJHRYH34liBfE7DLVUSc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorAIChatBot.Client.1c7l6pkz6o.pdb.gz",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\u7rrwykvit-1c7l6pkz6o.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22829"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GCqOZPp5LGNLG6rvkyXKJjjcNwtXEw7ctQXdXJluBBQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1c7l6pkz6o"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlazorAIChatBot.Client.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GCqOZPp5LGNLG6rvkyXKJjjcNwtXEw7ctQXdXJluBBQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorAIChatBot.Client.lhhnntw5uo.wasm",
+      "Route": "_framework/BlazorAIChatBot.Client.8ab0cfyo09.wasm",
       "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9712,11 +9551,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t/xVqEKb5NKUWITCdGVa3jYJPfCF0L0Y3heFnxBkIkM=\""
+          "Value": "\"IIENoPG/o3M+PS/lWJDWmwAGU1svGNlqPnzPtQ1azCQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
+          "Value": "Sun, 06 Apr 2025 15:11:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9726,7 +9565,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lhhnntw5uo"
+          "Value": "8ab0cfyo09"
         },
         {
           "Name": "label",
@@ -9734,18 +9573,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t/xVqEKb5NKUWITCdGVa3jYJPfCF0L0Y3heFnxBkIkM="
+          "Value": "sha256-IIENoPG/o3M+PS/lWJDWmwAGU1svGNlqPnzPtQ1azCQ="
         }
       ]
     },
     {
-      "Route": "_framework/BlazorAIChatBot.Client.lhhnntw5uo.wasm",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\mifpdyzypq-lhhnntw5uo.gz",
+      "Route": "_framework/BlazorAIChatBot.Client.8ab0cfyo09.wasm",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\mifpdyzypq-8ab0cfyo09.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000065612493"
+          "Quality": "0.000065500753"
         }
       ],
       "ResponseHeaders": [
@@ -9755,15 +9594,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15240"
+          "Value": "15266"
         },
         {
           "Name": "ETag",
-          "Value": "\"yUCiyjDscj1BpI1P/F1NoLpIVLS/j1lVC1gFjm3GKbE=\""
+          "Value": "\"383PPC0ln/Y7huWGg1FT2zXVcZ+HQxfrSqt0cNDIl3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
+          "Value": "Sun, 06 Apr 2025 15:11:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9783,13 +9622,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"t/xVqEKb5NKUWITCdGVa3jYJPfCF0L0Y3heFnxBkIkM=\""
+          "Value": "W/\"IIENoPG/o3M+PS/lWJDWmwAGU1svGNlqPnzPtQ1azCQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lhhnntw5uo"
+          "Value": "8ab0cfyo09"
         },
         {
           "Name": "label",
@@ -9797,13 +9636,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t/xVqEKb5NKUWITCdGVa3jYJPfCF0L0Y3heFnxBkIkM="
+          "Value": "sha256-IIENoPG/o3M+PS/lWJDWmwAGU1svGNlqPnzPtQ1azCQ="
         }
       ]
     },
     {
-      "Route": "_framework/BlazorAIChatBot.Client.lhhnntw5uo.wasm.gz",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\mifpdyzypq-lhhnntw5uo.gz",
+      "Route": "_framework/BlazorAIChatBot.Client.8ab0cfyo09.wasm.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\mifpdyzypq-8ab0cfyo09.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9812,7 +9651,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15240"
+          "Value": "15266"
         },
         {
           "Name": "Content-Type",
@@ -9820,11 +9659,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yUCiyjDscj1BpI1P/F1NoLpIVLS/j1lVC1gFjm3GKbE=\""
+          "Value": "\"383PPC0ln/Y7huWGg1FT2zXVcZ+HQxfrSqt0cNDIl3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
+          "Value": "Sun, 06 Apr 2025 15:11:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9842,7 +9681,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lhhnntw5uo"
+          "Value": "8ab0cfyo09"
         },
         {
           "Name": "label",
@@ -9850,7 +9689,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yUCiyjDscj1BpI1P/F1NoLpIVLS/j1lVC1gFjm3GKbE="
+          "Value": "sha256-383PPC0ln/Y7huWGg1FT2zXVcZ+HQxfrSqt0cNDIl3Y="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorAIChatBot.Client.p4xupah7ce.pdb",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwvHgOMmRBHiaexFHr9tivdFX5vO0pDGnEgtrEMarPc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p4xupah7ce"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazorAIChatBot.Client.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwvHgOMmRBHiaexFHr9tivdFX5vO0pDGnEgtrEMarPc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorAIChatBot.Client.p4xupah7ce.pdb",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\u7rrwykvit-p4xupah7ce.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000043763676"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22849"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yytYvzNhC6x4M6MUcw3X2jXzhkxZRMy0U8/wbJ/mseg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xwvHgOMmRBHiaexFHr9tivdFX5vO0pDGnEgtrEMarPc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p4xupah7ce"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazorAIChatBot.Client.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwvHgOMmRBHiaexFHr9tivdFX5vO0pDGnEgtrEMarPc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorAIChatBot.Client.p4xupah7ce.pdb.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\u7rrwykvit-p4xupah7ce.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yytYvzNhC6x4M6MUcw3X2jXzhkxZRMy0U8/wbJ/mseg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p4xupah7ce"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazorAIChatBot.Client.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yytYvzNhC6x4M6MUcw3X2jXzhkxZRMy0U8/wbJ/mseg="
         }
       ]
     },
@@ -9865,7 +9865,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30236"
+          "Value": "30260"
         },
         {
           "Name": "Content-Type",
@@ -9873,11 +9873,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YeJIauKFikUIqpRGBJjYeDOwJHRYH34liBfE7DLVUSc=\""
+          "Value": "\"xwvHgOMmRBHiaexFHr9tivdFX5vO0pDGnEgtrEMarPc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:33 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9887,18 +9887,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YeJIauKFikUIqpRGBJjYeDOwJHRYH34liBfE7DLVUSc="
+          "Value": "sha256-xwvHgOMmRBHiaexFHr9tivdFX5vO0pDGnEgtrEMarPc="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAIChatBot.Client.pdb",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\u7rrwykvit-1c7l6pkz6o.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\u7rrwykvit-p4xupah7ce.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000043802015"
+          "Quality": "0.000043763676"
         }
       ],
       "ResponseHeaders": [
@@ -9908,15 +9908,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22829"
+          "Value": "22849"
         },
         {
           "Name": "ETag",
-          "Value": "\"GCqOZPp5LGNLG6rvkyXKJjjcNwtXEw7ctQXdXJluBBQ=\""
+          "Value": "\"yytYvzNhC6x4M6MUcw3X2jXzhkxZRMy0U8/wbJ/mseg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9936,19 +9936,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YeJIauKFikUIqpRGBJjYeDOwJHRYH34liBfE7DLVUSc=\""
+          "Value": "W/\"xwvHgOMmRBHiaexFHr9tivdFX5vO0pDGnEgtrEMarPc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YeJIauKFikUIqpRGBJjYeDOwJHRYH34liBfE7DLVUSc="
+          "Value": "sha256-xwvHgOMmRBHiaexFHr9tivdFX5vO0pDGnEgtrEMarPc="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAIChatBot.Client.pdb.gz",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\u7rrwykvit-1c7l6pkz6o.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\u7rrwykvit-p4xupah7ce.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9957,7 +9957,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22829"
+          "Value": "22849"
         },
         {
           "Name": "Content-Type",
@@ -9965,11 +9965,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GCqOZPp5LGNLG6rvkyXKJjjcNwtXEw7ctQXdXJluBBQ=\""
+          "Value": "\"yytYvzNhC6x4M6MUcw3X2jXzhkxZRMy0U8/wbJ/mseg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9987,7 +9987,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GCqOZPp5LGNLG6rvkyXKJjjcNwtXEw7ctQXdXJluBBQ="
+          "Value": "sha256-yytYvzNhC6x4M6MUcw3X2jXzhkxZRMy0U8/wbJ/mseg="
         }
       ]
     },
@@ -10010,11 +10010,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t/xVqEKb5NKUWITCdGVa3jYJPfCF0L0Y3heFnxBkIkM=\""
+          "Value": "\"IIENoPG/o3M+PS/lWJDWmwAGU1svGNlqPnzPtQ1azCQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
+          "Value": "Sun, 06 Apr 2025 15:11:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10024,18 +10024,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-t/xVqEKb5NKUWITCdGVa3jYJPfCF0L0Y3heFnxBkIkM="
+          "Value": "sha256-IIENoPG/o3M+PS/lWJDWmwAGU1svGNlqPnzPtQ1azCQ="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAIChatBot.Client.wasm",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\mifpdyzypq-lhhnntw5uo.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\mifpdyzypq-8ab0cfyo09.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000065612493"
+          "Quality": "0.000065500753"
         }
       ],
       "ResponseHeaders": [
@@ -10045,15 +10045,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15240"
+          "Value": "15266"
         },
         {
           "Name": "ETag",
-          "Value": "\"yUCiyjDscj1BpI1P/F1NoLpIVLS/j1lVC1gFjm3GKbE=\""
+          "Value": "\"383PPC0ln/Y7huWGg1FT2zXVcZ+HQxfrSqt0cNDIl3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
+          "Value": "Sun, 06 Apr 2025 15:11:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10073,19 +10073,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"t/xVqEKb5NKUWITCdGVa3jYJPfCF0L0Y3heFnxBkIkM=\""
+          "Value": "W/\"IIENoPG/o3M+PS/lWJDWmwAGU1svGNlqPnzPtQ1azCQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-t/xVqEKb5NKUWITCdGVa3jYJPfCF0L0Y3heFnxBkIkM="
+          "Value": "sha256-IIENoPG/o3M+PS/lWJDWmwAGU1svGNlqPnzPtQ1azCQ="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAIChatBot.Client.wasm.gz",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\mifpdyzypq-lhhnntw5uo.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\mifpdyzypq-8ab0cfyo09.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10094,7 +10094,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15240"
+          "Value": "15266"
         },
         {
           "Name": "Content-Type",
@@ -10102,11 +10102,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yUCiyjDscj1BpI1P/F1NoLpIVLS/j1lVC1gFjm3GKbE=\""
+          "Value": "\"383PPC0ln/Y7huWGg1FT2zXVcZ+HQxfrSqt0cNDIl3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:54:34 GMT"
+          "Value": "Sun, 06 Apr 2025 15:11:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10124,173 +10124,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yUCiyjDscj1BpI1P/F1NoLpIVLS/j1lVC1gFjm3GKbE="
+          "Value": "sha256-383PPC0ln/Y7huWGg1FT2zXVcZ+HQxfrSqt0cNDIl3Y="
         }
       ]
     },
     {
-      "Route": "_framework/BlazorAIChatBot.Shared.58ui6u9fyh.pdb",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Shared.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13184"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hbc5Vss+cUsjLvOLJmfLDqlQ82w9m+hi5ToEc3Eygis=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "58ui6u9fyh"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlazorAIChatBot.Shared.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hbc5Vss+cUsjLvOLJmfLDqlQ82w9m+hi5ToEc3Eygis="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorAIChatBot.Shared.58ui6u9fyh.pdb",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\hjjzfxjrwp-58ui6u9fyh.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000132432790"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7550"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"M7KM12/djPXgnlh73wbV8AgaX3fmACrAb8uWAheTWq0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hbc5Vss+cUsjLvOLJmfLDqlQ82w9m+hi5ToEc3Eygis=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "58ui6u9fyh"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlazorAIChatBot.Shared.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hbc5Vss+cUsjLvOLJmfLDqlQ82w9m+hi5ToEc3Eygis="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorAIChatBot.Shared.58ui6u9fyh.pdb.gz",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\hjjzfxjrwp-58ui6u9fyh.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7550"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"M7KM12/djPXgnlh73wbV8AgaX3fmACrAb8uWAheTWq0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "58ui6u9fyh"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlazorAIChatBot.Shared.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-M7KM12/djPXgnlh73wbV8AgaX3fmACrAb8uWAheTWq0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorAIChatBot.Shared.idtih8wszl.wasm",
+      "Route": "_framework/BlazorAIChatBot.Shared.9yoru8jmqd.wasm",
       "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Shared.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10300,7 +10139,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10005"
+          "Value": "11029"
         },
         {
           "Name": "Content-Type",
@@ -10308,11 +10147,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NjZudDFdi50jR4BwSFmI99Uh0n7kp27otY/Tr91yNIw=\""
+          "Value": "\"75pQ9grCr+mzODGYFaWL81eN6J1n07uQXB1Us2NNQRU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10322,7 +10161,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "idtih8wszl"
+          "Value": "9yoru8jmqd"
         },
         {
           "Name": "label",
@@ -10330,18 +10169,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NjZudDFdi50jR4BwSFmI99Uh0n7kp27otY/Tr91yNIw="
+          "Value": "sha256-75pQ9grCr+mzODGYFaWL81eN6J1n07uQXB1Us2NNQRU="
         }
       ]
     },
     {
-      "Route": "_framework/BlazorAIChatBot.Shared.idtih8wszl.wasm",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\h9wm8k5xri-idtih8wszl.gz",
+      "Route": "_framework/BlazorAIChatBot.Shared.9yoru8jmqd.wasm",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\h9wm8k5xri-9yoru8jmqd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000229937917"
+          "Quality": "0.000206015657"
         }
       ],
       "ResponseHeaders": [
@@ -10351,15 +10190,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4348"
+          "Value": "4853"
         },
         {
           "Name": "ETag",
-          "Value": "\"Nl9u9aJcCFL4jfBSv+o7imhtgIy4EEmVxnW3tTZKzbg=\""
+          "Value": "\"0odcKFMWPF7+hJghcHbD7vrG6uSo9GBpEJrjBw1voWc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10379,13 +10218,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NjZudDFdi50jR4BwSFmI99Uh0n7kp27otY/Tr91yNIw=\""
+          "Value": "W/\"75pQ9grCr+mzODGYFaWL81eN6J1n07uQXB1Us2NNQRU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "idtih8wszl"
+          "Value": "9yoru8jmqd"
         },
         {
           "Name": "label",
@@ -10393,13 +10232,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NjZudDFdi50jR4BwSFmI99Uh0n7kp27otY/Tr91yNIw="
+          "Value": "sha256-75pQ9grCr+mzODGYFaWL81eN6J1n07uQXB1Us2NNQRU="
         }
       ]
     },
     {
-      "Route": "_framework/BlazorAIChatBot.Shared.idtih8wszl.wasm.gz",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\h9wm8k5xri-idtih8wszl.gz",
+      "Route": "_framework/BlazorAIChatBot.Shared.9yoru8jmqd.wasm.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\h9wm8k5xri-9yoru8jmqd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10408,7 +10247,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4348"
+          "Value": "4853"
         },
         {
           "Name": "Content-Type",
@@ -10416,11 +10255,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Nl9u9aJcCFL4jfBSv+o7imhtgIy4EEmVxnW3tTZKzbg=\""
+          "Value": "\"0odcKFMWPF7+hJghcHbD7vrG6uSo9GBpEJrjBw1voWc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10438,7 +10277,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "idtih8wszl"
+          "Value": "9yoru8jmqd"
         },
         {
           "Name": "label",
@@ -10446,7 +10285,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Nl9u9aJcCFL4jfBSv+o7imhtgIy4EEmVxnW3tTZKzbg="
+          "Value": "sha256-0odcKFMWPF7+hJghcHbD7vrG6uSo9GBpEJrjBw1voWc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorAIChatBot.Shared.ev3y7n13p5.pdb",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorAIChatBot.Shared.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GjvXC1/f1jEKT1LWT2bkdBdsEI2NBeJmtOQKIi6wd2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 15:22:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ev3y7n13p5"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazorAIChatBot.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjvXC1/f1jEKT1LWT2bkdBdsEI2NBeJmtOQKIi6wd2k="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorAIChatBot.Shared.ev3y7n13p5.pdb",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\hjjzfxjrwp-ev3y7n13p5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000129886998"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7698"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kp37qjjoY5VUpHDiaPTpJou6VvaByTyWc8cw531753M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GjvXC1/f1jEKT1LWT2bkdBdsEI2NBeJmtOQKIi6wd2k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ev3y7n13p5"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazorAIChatBot.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjvXC1/f1jEKT1LWT2bkdBdsEI2NBeJmtOQKIi6wd2k="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorAIChatBot.Shared.ev3y7n13p5.pdb.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\hjjzfxjrwp-ev3y7n13p5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kp37qjjoY5VUpHDiaPTpJou6VvaByTyWc8cw531753M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ev3y7n13p5"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazorAIChatBot.Shared.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kp37qjjoY5VUpHDiaPTpJou6VvaByTyWc8cw531753M="
         }
       ]
     },
@@ -10461,7 +10461,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13184"
+          "Value": "13400"
         },
         {
           "Name": "Content-Type",
@@ -10469,11 +10469,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hbc5Vss+cUsjLvOLJmfLDqlQ82w9m+hi5ToEc3Eygis=\""
+          "Value": "\"GjvXC1/f1jEKT1LWT2bkdBdsEI2NBeJmtOQKIi6wd2k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:00 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10483,18 +10483,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hbc5Vss+cUsjLvOLJmfLDqlQ82w9m+hi5ToEc3Eygis="
+          "Value": "sha256-GjvXC1/f1jEKT1LWT2bkdBdsEI2NBeJmtOQKIi6wd2k="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAIChatBot.Shared.pdb",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\hjjzfxjrwp-58ui6u9fyh.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\hjjzfxjrwp-ev3y7n13p5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000132432790"
+          "Quality": "0.000129886998"
         }
       ],
       "ResponseHeaders": [
@@ -10504,15 +10504,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7550"
+          "Value": "7698"
         },
         {
           "Name": "ETag",
-          "Value": "\"M7KM12/djPXgnlh73wbV8AgaX3fmACrAb8uWAheTWq0=\""
+          "Value": "\"Kp37qjjoY5VUpHDiaPTpJou6VvaByTyWc8cw531753M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10532,19 +10532,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hbc5Vss+cUsjLvOLJmfLDqlQ82w9m+hi5ToEc3Eygis=\""
+          "Value": "W/\"GjvXC1/f1jEKT1LWT2bkdBdsEI2NBeJmtOQKIi6wd2k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hbc5Vss+cUsjLvOLJmfLDqlQ82w9m+hi5ToEc3Eygis="
+          "Value": "sha256-GjvXC1/f1jEKT1LWT2bkdBdsEI2NBeJmtOQKIi6wd2k="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAIChatBot.Shared.pdb.gz",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\hjjzfxjrwp-58ui6u9fyh.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\hjjzfxjrwp-ev3y7n13p5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10553,7 +10553,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7550"
+          "Value": "7698"
         },
         {
           "Name": "Content-Type",
@@ -10561,11 +10561,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M7KM12/djPXgnlh73wbV8AgaX3fmACrAb8uWAheTWq0=\""
+          "Value": "\"Kp37qjjoY5VUpHDiaPTpJou6VvaByTyWc8cw531753M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10583,7 +10583,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M7KM12/djPXgnlh73wbV8AgaX3fmACrAb8uWAheTWq0="
+          "Value": "sha256-Kp37qjjoY5VUpHDiaPTpJou6VvaByTyWc8cw531753M="
         }
       ]
     },
@@ -10598,7 +10598,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10005"
+          "Value": "11029"
         },
         {
           "Name": "Content-Type",
@@ -10606,11 +10606,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NjZudDFdi50jR4BwSFmI99Uh0n7kp27otY/Tr91yNIw=\""
+          "Value": "\"75pQ9grCr+mzODGYFaWL81eN6J1n07uQXB1Us2NNQRU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10620,18 +10620,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NjZudDFdi50jR4BwSFmI99Uh0n7kp27otY/Tr91yNIw="
+          "Value": "sha256-75pQ9grCr+mzODGYFaWL81eN6J1n07uQXB1Us2NNQRU="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAIChatBot.Shared.wasm",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\h9wm8k5xri-idtih8wszl.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\h9wm8k5xri-9yoru8jmqd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000229937917"
+          "Quality": "0.000206015657"
         }
       ],
       "ResponseHeaders": [
@@ -10641,15 +10641,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4348"
+          "Value": "4853"
         },
         {
           "Name": "ETag",
-          "Value": "\"Nl9u9aJcCFL4jfBSv+o7imhtgIy4EEmVxnW3tTZKzbg=\""
+          "Value": "\"0odcKFMWPF7+hJghcHbD7vrG6uSo9GBpEJrjBw1voWc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10669,19 +10669,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NjZudDFdi50jR4BwSFmI99Uh0n7kp27otY/Tr91yNIw=\""
+          "Value": "W/\"75pQ9grCr+mzODGYFaWL81eN6J1n07uQXB1Us2NNQRU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NjZudDFdi50jR4BwSFmI99Uh0n7kp27otY/Tr91yNIw="
+          "Value": "sha256-75pQ9grCr+mzODGYFaWL81eN6J1n07uQXB1Us2NNQRU="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAIChatBot.Shared.wasm.gz",
-      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\h9wm8k5xri-idtih8wszl.gz",
+      "AssetFile": "C:\\Projects\\Csharp\\BlazorAIChatBot\\Client\\obj\\Debug\\net9.0\\compressed\\h9wm8k5xri-9yoru8jmqd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10690,7 +10690,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4348"
+          "Value": "4853"
         },
         {
           "Name": "Content-Type",
@@ -10698,11 +10698,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Nl9u9aJcCFL4jfBSv+o7imhtgIy4EEmVxnW3tTZKzbg=\""
+          "Value": "\"0odcKFMWPF7+hJghcHbD7vrG6uSo9GBpEJrjBw1voWc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 14:45:02 GMT"
+          "Value": "Sun, 06 Apr 2025 15:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10720,7 +10720,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Nl9u9aJcCFL4jfBSv+o7imhtgIy4EEmVxnW3tTZKzbg="
+          "Value": "sha256-0odcKFMWPF7+hJghcHbD7vrG6uSo9GBpEJrjBw1voWc="
         }
       ]
     },

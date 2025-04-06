@@ -41,7 +41,7 @@ namespace BlazorAIChatBot.Server.Services
                 }
 
                 // Generate a response based on the fetched data
-                var responseText = BotTraining.GenerateResponseFromData(data);
+                var responseText = BotTraining.GenerateResponseFromData(data, entity, startDate, endDate);
 
                 return new ChatMessage
                 {
