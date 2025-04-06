@@ -1,7 +1,8 @@
 # TWbot - for fetching global TWh data usage/demand per country
 
 ## Description
-A basic (hosted) Blazor webassembly App fetching data from right now (1) RESTful API from ember-energy.org, filtering that data and lets user either manually in application search and browse through TWh data per country and per month, or use the AI-chatbot (...in its very early stages yet) to instead prompt for data.
+A basic (hosted) Blazor webassembly App fetching electrical data from (1) RESTful API consistent of ember-energy.org per country.   
+The application filters data and lets user either manually in application search and browse through TWh data per country and per month, or use the AI-chatbot (...in its very early stages yet) to instead prompt for data.
 Uses .NET9
 
 ## Installation
